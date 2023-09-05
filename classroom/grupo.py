@@ -17,6 +17,9 @@ class Grupo:
         if lista == None:
             lista = []
 
+        lista.append(alumno)
+        self.listadoAlumnos = self.listadoAlumnos + lista
+
     def __str__(self):
         return "grupo de estudiantes: " + self._grupo
         
